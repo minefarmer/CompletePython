@@ -27,4 +27,4 @@ sentence.isdecimal(     sentence.replace(       sentence.zfill(
 'A THING IN HERE'
 >>> sentence.lower()
 'a thing in here'
->>> 
+>>>
