@@ -1,0 +1,18 @@
+sh-5.1$ python3 -m http.server
+# line 1 produces line 3
+Serving HTTP on 0.0.0.0 port 8000 (http://0.0.0.0:8000/) ...
+# I enter localhost:8000 in a browser and the stuff below appears.
+127.0.0.1 - - [23/Jan/2021 17:39:48] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [23/Jan/2021 17:39:48] "GET /css/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [23/Jan/2021 17:39:48] "GET /js/app.js HTTP/1.1" 200 -
+127.0.0.1 - - [23/Jan/2021 17:39:48] code 404, message File not found
+127.0.0.1 - - [23/Jan/2021 17:39:48] "GET /favicon.ico HTTP/1.1" 404 -
+
+control c  to cancel
+
+
+
+
+
+
+Public url's available at ngrok
