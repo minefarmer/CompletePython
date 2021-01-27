@@ -11,3 +11,4 @@ def add_numbers(name, *args):  #*args always comeback as a tuple
     return total
 total = add_numbers('Carl', 1, 3, 5, 7, 9)
 print(total)  # 25
+
