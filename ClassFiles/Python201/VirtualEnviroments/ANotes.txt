@@ -1,0 +1,2 @@
+The Virtual Envirenments must be created in the folder I want using the terminal.
+
