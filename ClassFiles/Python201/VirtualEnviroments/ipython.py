@@ -46,7 +46,26 @@ words.clear(    words.count(    words.index(    words.pop(      words.reverse(
 >>> 
 
 
+In [1]: name = "Kalob Taulin"                                                   
+
+In [2]: name.zfill("1")                                                         
+---------------------------------------------------------------------------
+TypeError                                 Traceback (most recent call last)
+<ipython-input-2-9e617e84d694> in <module>
+----> 1 name.zfill("1")
+
+TypeError: 'str' object cannot be interpreted as an integer
+
+
+In [5]: name.zfill("test")                                                      
+---------------------------------------------------------------------------
+TypeError                                 Traceback (most recent call last)
+<ipython-input-5-02cd806b9b5a> in <module>
+----> 1 name.zfill("test")
+
+TypeError: 'str' object cannot be interpreted as an integer
+
+
 
 '''
 
-TODO: 53  2:25
