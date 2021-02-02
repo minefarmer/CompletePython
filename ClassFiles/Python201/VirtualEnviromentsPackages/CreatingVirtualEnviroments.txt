@@ -1,0 +1,10 @@
+ipython3  {% comment %} is the command to start ipython. {% endcomment %}
+
+
+
+
+rich@dell-lmde:~/Desktop/CarlsHub/CompletePython/ClassFiles/Python201/VirtualEnviromentsPackages/3rdPartyPackages$ python3 -m venv .richv
+
+rich@dell-lmde:~/Desktop/CarlsHub/CompletePython/ClassFiles/Python201/VirtualEnviromentsPackages/3rdPartyPackages$ source .richv/bin/activate
+
+(.richv) rich@dell-lmde:~/Desktop/CarlsHub/CompletePython/ClassFiles/Python201/VirtualEnviromentsPackages$ 
