@@ -1,0 +1,6 @@
+Creating a venv in Windows.
+
+
+
+{% comment %} In Terminal type {% endcomment %}
+python -m venv .venv

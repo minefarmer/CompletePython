@@ -1,0 +1,11 @@
+Creating a venv in Windows.
+
+Check for these files installed: .venv venv or env  # .venv on dell
+
+{% comment %} To installation in pgold {% endcomment %}
+python -m venv .venv
+
+{% comment %} To install Use Project folder Terminal for project. {% endcomment %}
+python -m venv .venv
+
+{% comment %} Use (conda deactivate

@@ -1,0 +1,6 @@
+Creating a venv in Windows.
+
+Check for these files installed: .venv venv or env  # .venv on dell
+
+{% comment %} In Project folder Terminal for project. {% endcomment %}
+python -m venv .venv
