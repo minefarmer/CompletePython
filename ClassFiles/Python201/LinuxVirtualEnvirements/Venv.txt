@@ -1,0 +1,26 @@
+Creating a venv.
+
+Check for these files installed: .venv venv or env
+
+{% comment %} Use system Terminal for installation in rich folder{% endcomment %}
+python -m venv .venv
+
+{% comment %} To install Use Project folder Terminal for project. {% endcomment %}
+python -m venv .venv
+
+{% comment %} Django {% endcomment %}
+show Django  # not working 
+
+{% comment %} Activation {% endcomment %}
+source .venv/bin/activate  {% comment %} (.venv) rich@dell-lmde:~/Desktop/CarlsHub/CompletePython/      ClassFiles/Python201/LinuxVirtualEnvirements$ 
+        {% endcomment %}
+
+{% comment %} Deactivate {% endcomment %}
+conda deactivate
+{% comment %} rich@dell-lmde:~/Desktop/CarlsHub/CompletePython/ClassFiles/Python201/LinuxVirtualEnvirements {% endcomment %}
+
+{% comment %} to reactikvate {% endcomment %}
+rich@dell-lmde:~/Desktop/CarlsHub/CompletePython/ClassFiles/Python201/LinuxVirtualEnvirements$ conda activate
+
+
+TODO: need to research Django on linux
